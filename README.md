@@ -6,13 +6,13 @@ This repositery is used to generate AI features and combine with radiomics featu
 
 1. The baseline contrast-enhanced CT images are acquired and saved as dicom format.
 
-2. The ITK-SNAP or 3D Slicer software is used to manually segment the 3D ROI of the tumors on corticomedullary phase (CMP) and nephrographic phase (NP) images, and nrrd or nifti format ROIs are saved.
+2. The ITK-SNAP or 3D Slicer software is used to manually segment the 3D ROI.
 
 3. The radiomics features are derived from 3D ROIs, and extracted from Pyradiomics software (Version 3.0). The code is based on the pyradiomics python package. It could be easily achieved by 3D slicer, LIFEx, or other programs.
 
 ## Generate AI Features
 
-1. Select the cross section of CT which contains the largest ROI of the tumors.
+1. Select the cross section of CT which contains the largest ROI.
 
 2. Crop it to a square figure, in which the tumor occupy the most part of the figure.
 
